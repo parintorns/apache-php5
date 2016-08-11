@@ -4,5 +4,3 @@ web:
     - "80:80"
   volumes:
     - "./html:/var/www/html"
-  environment:
-    - ALLOW_OVERRIDE=true
